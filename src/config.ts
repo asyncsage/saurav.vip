@@ -99,10 +99,6 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
           name: 'C++',
           icon: 'icon-[mdi--language-cpp]',
         },
-        {
-          name: 'CUDA',
-          icon: 'icon-[simple-icons--nvidia]',
-        },
         { name: 'C', icon: 'icon-[mdi--language-c]' },
         { name: 'Python', icon: 'icon-[mdi--language-python]' },
         {
