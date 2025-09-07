@@ -6,11 +6,11 @@ import sitemap from '@astrojs/sitemap'
 import robotsTxt from 'astro-robots-txt'
 import expressiveCode from 'astro-expressive-code'
 import { remarkPlugins, rehypePlugins } from './plugins'
-// import { SITE } from './src/config'
+import { SITE } from './src/config'
 
 export default defineConfig({
-//   site: SITE.website,
-//   base: SITE.base,
+  site: SITE.website,
+  base: SITE.base,
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport',
@@ -18,7 +18,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  markdown:  {
+  markdown: {
     syntaxHighlight: false,
     remarkPlugins,
     rehypePlugins,
