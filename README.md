@@ -17,13 +17,13 @@ A modern blog theme built with Astro.js and designed for developers.
 
 ```bash
 # Installing dependencies
-pnpm install
+npm install
 
 # Development mode
-pnpm dev
+npm dev
 
 # Building
-pnpm build
+npm build
 ```
 
 ## Technology Stack

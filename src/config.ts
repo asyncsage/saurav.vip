@@ -13,13 +13,12 @@ import type {
 
 //--- Readme Page Config ---
 export const SITE: Site = {
-  title: 'Litos',
-  description:
-    'Litos is a modern blogging theme built on Astro.js, designed for developers. It supports multiple post layouts, photo displays, project displays, and more, providing an elegant user experience and powerful customization capabilities.',
-  website: 'https://litos.vercel.app/',
+  title: 'Saurav',
+  description: 'Thoughts, projects, and experiments in Rust, Kotlin, Unreal Engine 5, and modern tech',
+  website: 'https://saurav.vip/',
   lang: 'en',
   base: '/',
-  author: 'Dnzzk2',
+  author: 'asyncsage',
   ogImage: '/og-image.webp',
 }
 
@@ -61,23 +60,12 @@ export const FOOTER_LINKS: Link[] = [
   },
 ]
 
-// get icon https://icon-sets.iconify.design/
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'github',
-    url: 'https://github.com/yourname',
+    url: 'https://github.com/asyncsage',
     icon: 'icon-[ri--github-fill]',
-    count: 11,
-  },
-  {
-    name: 'twitter',
-    url: 'https://x.com/yourname',
-    icon: 'icon-[ri--twitter-x-fill]',
-  },
-  {
-    name: 'bilibili',
-    url: 'https://space.bilibili.com/yourSpaceId',
-    icon: 'icon-[ri--bilibili-fill]',
+    count: 2,
   },
 ]
 
@@ -97,18 +85,26 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
     {
       direction: 'left',
       skills: [
+        { name: 'Java', icon: 'icon-[mdi--language-java]' },
+        { name: 'Go', icon: 'icon-[mdi--language-go]' },
         {
-          name: 'JavaScript',
-          icon: 'icon-[mdi--language-javascript]',
+          name: 'Rust',
+          icon: 'icon-[mdi--language-rust]',
         },
         {
-          name: 'CSS',
-          icon: 'icon-[mdi--language-css3]',
+          name: 'Kotlin',
+          icon: 'icon-[simple-icons--kotlin]',
         },
         {
-          name: 'HTML',
-          icon: 'icon-[mdi--language-html5]',
+          name: 'C++',
+          icon: 'icon-[mdi--language-cpp]',
         },
+        {
+          name: 'CUDA',
+          icon: 'icon-[simple-icons--nvidia]',
+        },
+        { name: 'C', icon: 'icon-[mdi--language-c]' },
+        { name: 'Python', icon: 'icon-[mdi--language-python]' },
         {
           name: 'TypeScript',
           icon: 'icon-[mdi--language-typescript]',
@@ -119,13 +115,15 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
       direction: 'right',
       skills: [
         {
-          name: 'Astro',
-          icon: 'icon-[lineicons--astro]',
+          name: 'Spring Boot',
+          icon: 'icon-[simple-icons--springboot]',
         },
         {
-          name: 'Node.js',
-          icon: 'icon-[mdi--nodejs]',
+          name: 'Android / Jetpack Compose',
+          icon: 'icon-[simple-icons--android]',
         },
+        { name: 'Ktor', icon: 'icon-[simple-icons--ktor]' },
+        { name: 'Axum', icon: 'icon-[simple-icons--rust]' },
         {
           name: 'React',
           icon: 'icon-[mdi--react]',
@@ -135,34 +133,37 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
           icon: 'icon-[devicon--nextjs]',
         },
         {
-          name: 'Tailwind CSS',
-          icon: 'icon-[mdi--tailwind]',
+          name: 'Unreal Engine 5',
+          icon: 'icon-[simple-icons--unrealengine]',
         },
-        {
-          name: 'Iconify',
-          icon: 'icon-[line-md--iconify2-static]',
-        },
+        { name: 'Blender', icon: 'icon-[simple-icons--blender]' },
       ],
     },
     {
       direction: 'left',
       skills: [
         {
-          name: 'Ubuntu',
-          icon: 'icon-[mdi--ubuntu]',
+          name: 'Node.js',
+          icon: 'icon-[mdi--nodejs]',
         },
         {
           name: 'Git',
           icon: 'icon-[mdi--git]',
         },
         {
-          name: 'MongoDB',
-          icon: 'icon-[lineicons--mongodb]',
+          name: 'Ubuntu',
+          icon: 'icon-[mdi--ubuntu]',
         },
         {
-          name: 'Vercel',
-          icon: 'icon-[lineicons--vercel]',
+          name: 'AWS',
+          icon: 'icon-[mdi--aws]',
         },
+        { name: 'AI', icon: 'icon-[mdi--robot]' },
+        { name: 'MySQL', icon: 'icon-[mdi--database]' },
+        { name: 'Postman', icon: 'icon-[simple-icons--postman]' },
+        { name: 'IntelliJ IDEA', icon: 'icon-[simple-icons--intellijidea]' },
+        { name: 'Rider', icon: 'icon-[simple-icons--rider]' },
+        { name: 'Neovim', icon: 'icon-[simple-icons--neovim]' },
       ],
     },
   ],
